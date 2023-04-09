@@ -1,0 +1,310 @@
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+html {
+    background-color: white;
+    font-family: "GraublauWeb Regular";
+}
+
+@font-face {
+    font-family: "GraublauWeb Regular";
+    src: url('Graublau-Web-Regular.eot');
+    src: local("GraublauWeb-Regular"), url('Graublau-Web-Regular.ttf');
+}
+
+#lien-articles {
+    color: black;
+    text-align: center;
+}
+
+body {
+    font-size: 14px;
+}
+
+
+#bas {
+    height: 1px;
+    background-color: #99ff33;
+    display: table-row;
+    font-size: 17px;
+}
+
+#haut {
+    height: 100px;
+    background-color: #99ff33;
+    display: table-row;
+    padding: 5px;
+    margin: 0px;
+    position: relative;
+}
+
+#contenu-header {
+    height: auto;
+}
+
+#contenu-logo {
+    width: 960px;
+    margin: 0 auto;
+}
+
+html, body, div {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    margin: 5px;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 15px;
+}
+
+nav ul li a:hover {
+    border-bottom: solid #ffffffff 5px;
+    font-weight: 500;
+}
+
+#logo {
+    float: left;
+    margin-top: 15px;
+}
+
+#contenu-body {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.text-footer {
+    float: right;
+    margin-right: 105px;
+    position: static;
+}
+
+.liens-footer {
+    color: #000;
+    text-decoration: none;
+}
+
+#copyright {
+    color: black;
+    float: left;
+    margin-left: 105px;
+}
+
+.profil {
+    margin: 15px;
+    float: left;
+    padding: 5px;
+}
+
+#titre-page {
+    position: left;
+}
+
+#contenu-footer {
+    height: auto;
+    padding: 90px;
+    position: static;
+}
+
+header img {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    vertical-align: middle;
+    margin-top: 0.5%;
+}
+
+#text-header {
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 1.5%;
+    color: black;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "GraublauWeb Regular";
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    height: 250px;
+    width: 500px;
+    border-radius: 4px;
+    border: 2px solid green;
+    float: center;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#img_acces {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titre-page {
+    color: black;
+}
+
+table tr th, table tr td { 
+  background: green;
+  color: #FFF;
+  padding: 8px 8px;
+  /*text-align: left;*/
+}
+  
+table tr td { 
+  background: #b3ffc6;
+  color: #47433F;
+  border-top: 1px solid #FFF;
+}
+
+td.titre {
+    text-align: center;
+    font-weight: bold;
+    background: #0096D7;
+    color: white;
+}
+
+td {
+    width:50px;
+    text-align: center;
+    border-width:2px;
+    text-align: center; 
+}
+
+table {
+    margin-top: 5px;
+    margin-left: 5px;
+    width:100%;
+}
+
+input[type="submit"] {
+    background-color:  #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family: "GraublauWeb Regular";
+    font-weight: 700;
+    cursor: pointer;
+    margin: 8px 0;
+    width: 100%;
+}
+
+input[type="reset"] {
+    background-color:  white;
+    border: 3px solid #4CAF50;
+    color: #4CAF50;
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family: "GraublauWeb Regular";
+    cursor: pointer;
+    font-weight: 400;
+    margin: 8px 0;
+    width: 100%;
+}
+
+input[type="reset"]:hover {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+input[type="identifiant"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: "GraublauWeb Regular";
+    font-size: 17px;
+    border: 1px solid green;
+    border-radius: 4px;
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "GraublauWeb Regular";
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #F3F3F3;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    height: auto;
+    width: 750px;
+    border-radius: 4px;
+    border: 2px solid green;
+    float: center;
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 6em;*/
+}
+
+#lien-login {
+    color: #000;
+    text-decoration: all;
+    cursor: auto;
+}
